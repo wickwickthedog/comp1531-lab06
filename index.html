@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Calculator</title>
+        <style>
+            button[type=submit] {
+                border-style: solid;
+                border-color: grey;
+                height: 90px;
+                width: 90px;
+                font-size: 30px;
+            }
+            h1 {
+                font-size: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id='calc-contain'>
+  
+          <form name="calculator" method="POST">
+            
+            <h1>{{all_users}}</h1>
+            <br>
+            
+            <button type="submit" name="bt" value="1">1</button>
+            <button type="submit" name="bt" value="2">2</button>
+            <button type="submit" name="bt" value="3">3</button>
+            <button type="submit" name="bt" value="C">C</button>
+            <br/>
+            
+            <button type="submit" name="bt" value="4">4</button>
+            <button type="submit" name="bt" value="5">5</button>
+            <button type="submit" name="bt" value="6">6</button>
+            <button type="submit" name="bt" value="+">+</button>
+            </br>
+          
+            <button type="submit" name="bt" value="7">7</button>
+            <button type="submit" name="bt" value="8">8</button>
+            <button type="submit" name="bt" value="9">9</button>
+            <button type="submit" name="bt" value="-">-</button>
+            </br>
+        
+            <button type="submit" name="bt" value="0">0</button>
+            <button type="submit" name="bt" value="*">*</button>
+            <button type="submit" name="bt" value="/">/</button>
+            <button type="submit" name="bt" value="=">=</button>
+            </br>
+
+            <button type="submit" name="bt" value="(">(</button>
+            <button type="submit" name="bt" value=")">)</button>
+            <button type="submit" name="bt" value="sin">sin</button>
+            <button type="submit" name="bt" value="tan">tan</button>
+            </br>
+
+            <button type="submit" name="bt" value="cos">cos</button>
+            <button type="submit" name="bt" value="log">log</button>
+            <button type="submit" name="bt" value="sqrt">sqrt</button>
+            <button type="submit" name="bt" value="CE">CE</button>
+            </br>
+  
+            <button type="submit" name="bt" value="<"><</button>
+            <button type="submit" name="bt" value=">">></button>
+            </br>
+    
+          </form>
+          <div id="agh">
+          </div>
+        </div>
+    </body>
+</html>
